@@ -15,8 +15,7 @@
   limitations under the License.
   -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.by_syk.nanoiconpack.sample">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.by_syk.nanoiconpack.sample">
 
     <!--
     for android:theme=""
@@ -25,11 +24,7 @@
         AppThemeLight, AppThemeLightDef,
         AppThemeLightWithDark, AppThemeLightWithDarkDef,
     -->
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppThemeLightWithDark">
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@style/AppThemeLightWithDark">
 
         <activity android:name="com.by_syk.lib.nanoiconpack.MainActivity">
             <intent-filter>
